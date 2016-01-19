@@ -1,9 +1,9 @@
 package org.bulldog.examples;
 
 import io.silverspoon.bulldog.beagleboneblack.BBBNames;
-import io.silverspoon.bulldog.core.gpio.AnalogInput;
 import io.silverspoon.bulldog.core.platform.Board;
 import io.silverspoon.bulldog.core.platform.Platform;
+import io.silverspoon.bulldog.core.pwm.AnalogInput;
 import io.silverspoon.bulldog.core.util.BulldogUtil;
 
 import java.io.IOException;
