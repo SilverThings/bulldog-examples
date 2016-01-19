@@ -2,10 +2,10 @@ package org.bulldog.examples;
 
 import io.silverspoon.bulldog.beagleboneblack.BBBNames;
 import io.silverspoon.bulldog.beagleboneblack.BBBProperties;
-import io.silverspoon.bulldog.core.gpio.Pwm;
-import io.silverspoon.bulldog.core.gpio.util.SoftPwm;
 import io.silverspoon.bulldog.core.platform.Board;
 import io.silverspoon.bulldog.core.platform.Platform;
+import io.silverspoon.bulldog.core.pwm.Pwm;
+import io.silverspoon.bulldog.core.pwm.SoftPwm;
 import io.silverspoon.bulldog.core.util.BulldogUtil;
 
 public class PwmExample {

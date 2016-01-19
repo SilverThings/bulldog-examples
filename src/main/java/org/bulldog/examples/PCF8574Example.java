@@ -2,10 +2,10 @@ package org.bulldog.examples;
 
 import io.silverspoon.bulldog.beagleboneblack.BBBNames;
 import io.silverspoon.bulldog.core.Signal;
+import io.silverspoon.bulldog.core.event.InterruptEventArgs;
+import io.silverspoon.bulldog.core.event.InterruptListener;
 import io.silverspoon.bulldog.core.gpio.DigitalInput;
 import io.silverspoon.bulldog.core.gpio.DigitalOutput;
-import io.silverspoon.bulldog.core.gpio.event.InterruptEventArgs;
-import io.silverspoon.bulldog.core.gpio.event.InterruptListener;
 import io.silverspoon.bulldog.core.io.bus.i2c.I2cBus;
 import io.silverspoon.bulldog.core.platform.Board;
 import io.silverspoon.bulldog.core.platform.Platform;
